@@ -27,7 +27,7 @@ public class monthArray {
 		for(int i=0; i<loop; i++) {
 		monthArray mon = new monthArray();
 		System.out.printf("%d월은 %d일까지 있습니다. \n", months[i], mon.maxDayOfMonth(months[i]));
-		scan.close();
 		}
+		scan.close();
 	}
 }
